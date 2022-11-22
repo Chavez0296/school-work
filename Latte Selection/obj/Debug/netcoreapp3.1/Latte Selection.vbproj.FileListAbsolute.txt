@@ -1,0 +1,17 @@
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte Selection.vbproj.AssemblyReference.cache
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte_Selection.Form1.resources
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte_Selection.Resources.resources
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte Selection.vbproj.GenerateResource.cache
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte Selection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte Selection.AssemblyInfoInputs.cache
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte Selection.AssemblyInfo.vb
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte Selection.vbproj.CoreCompileInputs.cache
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\bin\Debug\netcoreapp3.1\Latte Selection.exe
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\bin\Debug\netcoreapp3.1\Latte Selection.deps.json
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\bin\Debug\netcoreapp3.1\Latte Selection.runtimeconfig.json
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\bin\Debug\netcoreapp3.1\Latte Selection.runtimeconfig.dev.json
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\bin\Debug\netcoreapp3.1\Latte Selection.dll
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\bin\Debug\netcoreapp3.1\Latte Selection.pdb
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte Selection.dll
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte Selection.pdb
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte Selection.genruntimeconfig.cache

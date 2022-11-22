@@ -1,0 +1,8 @@
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Form1.vbproj.AssemblyReference.cache
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte_Selection.Form1.resources
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Latte_Selection.Resources.resources
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Form1.vbproj.GenerateResource.cache
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Form1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Form1.AssemblyInfoInputs.cache
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Form1.AssemblyInfo.vb
+C:\Users\ANDREW\source\repos\Latte Selection\Latte Selection\obj\Debug\netcoreapp3.1\Form1.vbproj.CoreCompileInputs.cache
