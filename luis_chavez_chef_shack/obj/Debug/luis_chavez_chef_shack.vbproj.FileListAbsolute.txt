@@ -1,0 +1,13 @@
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\bin\Debug\luis_chavez_chef_shack.exe.config
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\bin\Debug\luis_chavez_chef_shack.exe
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\bin\Debug\luis_chavez_chef_shack.pdb
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\bin\Debug\luis_chavez_chef_shack.xml
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\obj\Debug\luis_chavez_chef_shack.vbprojAssemblyReference.cache
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\obj\Debug\luis_chavez_chef_shack.frmDisplayInventory.resources
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\obj\Debug\luis_chavez_chef_shack.Resources.resources
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\obj\Debug\luis_chavez_chef_shack.vbproj.GenerateResource.cache
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\obj\Debug\luis_chavez_chef_shack.vbproj.CoreCompileInputs.cache
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\obj\Debug\luis_chavez_chef_shack.exe
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\obj\Debug\luis_chavez_chef_shack.xml
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\obj\Debug\luis_chavez_chef_shack.pdb
+C:\Users\ANDREW\source\repos\luis_chavez_chef_shack\luis_chavez_chef_shack\obj\Debug\luis_chavez_chef_shack.frmDepreciation.resources

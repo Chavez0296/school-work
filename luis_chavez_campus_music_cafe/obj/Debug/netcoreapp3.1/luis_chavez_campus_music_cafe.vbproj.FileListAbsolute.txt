@@ -1,0 +1,17 @@
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\bin\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.exe
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\bin\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.deps.json
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\bin\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.runtimeconfig.json
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\bin\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.runtimeconfig.dev.json
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\bin\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.dll
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\bin\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.pdb
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.vbproj.AssemblyReference.cache
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.Form1.resources
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.vbproj.GenerateResource.cache
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.AssemblyInfoInputs.cache
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.AssemblyInfo.vb
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.vbproj.CoreCompileInputs.cache
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.dll
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.pdb
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.genruntimeconfig.cache
+C:\Users\ANDREW\source\repos\luis_chavez_campus_music_cafe\luis_chavez_campus_music_cafe\obj\Debug\netcoreapp3.1\luis_chavez_campus_music_cafe.Resources.resources
