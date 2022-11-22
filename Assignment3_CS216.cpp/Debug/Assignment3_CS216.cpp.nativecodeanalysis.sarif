@@ -1,0 +1,3734 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Appointment::description' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 2,
+                  "endLine": 51,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Appointment@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Appointment::description"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Appointment::location' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 2,
+                  "endLine": 51,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Appointment@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Appointment::location"
+          }
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'ap':  the writable size is '400' bytes, but '-4' bytes might be written."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                },
+                "region": {
+                  "startLine": 476,
+                  "startColumn": 6,
+                  "endLine": 476,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 390,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'ap' is an array of 100 elements (400 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 390,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 391,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 391,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 392,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 394,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 395,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 396,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 397,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 398,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 399,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'ap' is an Output from 'conflict' (declared on line 382)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 434,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 435,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 436,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 682,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 34,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 35,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 36,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'ap' is an Output from 'conflict' (declared on line 382)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 37,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 38,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 434,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 39,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 435,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 40,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 436,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 41,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 682,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 42,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 43,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 44,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 45,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 4: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 46,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 47,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "'ap' is an Output from 'select_appt' (declared on line 384)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 48,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 49,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 471,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 50,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 473,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'choice<count-1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 51,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 474,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 52,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 474,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<count')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 53,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 476,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'ap[-1]', (writable range is 0 to 99)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'ap':  the readable size is '400' bytes, but 'i' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                },
+                "region": {
+                  "startLine": 476,
+                  "startColumn": 6,
+                  "endLine": 476,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 390,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'ap' is an array of 100 elements (400 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 390,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 391,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 391,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 392,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 394,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 395,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 396,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 397,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 398,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 399,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'ap' is an Output from 'conflict' (declared on line 382)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 434,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 435,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 436,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 682,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 2: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 440,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 34,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 440,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 35,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 441,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 36,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 442,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 37,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 443,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'ap' is an Output from 'conflict' (declared on line 382)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 38,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 443,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 39,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 445,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 40,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 446,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 41,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 447,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 42,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 682,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 43,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 44,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 45,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 46,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 4: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 47,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 48,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "'ap' is an Output from 'select_appt' (declared on line 384)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 49,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 50,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 471,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 51,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 473,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'choice<count-1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 52,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 474,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 53,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 474,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 2 (Enter this loop)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 54,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 476,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'ap[-1]', (readable range is 0 to 99)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'type':  the writable size is '400' bytes, but '-4' bytes might be written."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                },
+                "region": {
+                  "startLine": 477,
+                  "startColumn": 6,
+                  "endLine": 477,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 390,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 390,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 391,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 391,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 392,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'type' is an array of 100 elements (400 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 394,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 395,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 396,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 397,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 398,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 399,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 434,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 435,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 436,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 682,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 34,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 35,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 36,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 434,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 37,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 435,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 38,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 436,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 39,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 682,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 40,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 41,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 42,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 43,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 4: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 44,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 45,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 46,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 471,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 47,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 473,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'choice<count-1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 48,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 474,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 49,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 474,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<count')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 50,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 476,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 51,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 477,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'type[-1]', (writable range is 0 to 99)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'type':  the readable size is '400' bytes, but 'i' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                },
+                "region": {
+                  "startLine": 477,
+                  "startColumn": 6,
+                  "endLine": 477,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 390,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 390,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 391,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 391,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 392,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'type' is an array of 100 elements (400 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 394,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 395,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 396,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 397,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 398,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 399,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 1: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 424,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 425,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 426,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 434,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 435,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 436,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 682,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 2: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 440,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 440,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 34,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 441,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 35,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 442,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 36,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 443,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 37,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 445,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 38,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 446,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 39,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 447,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 40,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 682,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 41,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 42,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 418,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 43,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 420,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 44,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 422,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'choice' ) resolves to case 4: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 45,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 46,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 464,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 47,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 471,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 48,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 473,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'choice<count-1')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 49,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 474,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 50,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 474,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 2 (Enter this loop)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "index": 51,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 476,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 52,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+                          },
+                          "region": {
+                            "startLine": 477,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'type[-1]', (readable range is 0 to 99)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29337.0"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00A5B1D0 -il C:\\Users\\ANDREW\\AppData\\Local\\Temp\\_CL_a88f7e24ast -typedil -f Assignment3_CS216.cpp.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829337 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I C:\\Users\\ANDREW\\vcpkg\\installed\\x86-windows\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\Assignment3_CS216.cpp.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\ANDREW\\source\\repos\\Assignment3_CS216.cpp\\Assignment3_CS216.cpp -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/ANDREW/source/repos/Assignment3_CS216.cpp/Assignment3_CS216.cpp/Assignment3_CS216.cpp.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        }
+      ]
+    }
+  ]
+}

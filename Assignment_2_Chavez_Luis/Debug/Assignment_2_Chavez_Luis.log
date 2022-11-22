@@ -1,0 +1,5 @@
+﻿  Fraction.cpp
+C:\Users\ANDREW\source\repos\Assignment_2_Chavez_Luis\Assignment_2_Chavez_Luis\Fraction.cpp(39,10): warning C4101: 'slash': unreferenced local variable
+C:\Users\ANDREW\source\repos\Assignment_2_Chavez_Luis\Assignment_2_Chavez_Luis\Fraction.cpp(210): warning C4715: 'FracList::operator[]': not all control paths return a value
+C:\Users\ANDREW\source\repos\Assignment_2_Chavez_Luis\Assignment_2_Chavez_Luis\Fraction.cpp(216): warning C4715: 'FracList::operator[]': not all control paths return a value
+  Assignment_2_Chavez_Luis.vcxproj -> C:\Users\ANDREW\source\repos\Assignment_2_Chavez_Luis\Debug\Assignment_2_Chavez_Luis.exe
